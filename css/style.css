@@ -494,12 +494,14 @@ li::marker {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 90px 0;
+	position: relative;
+	margin-bottom: 100px;
 }
 
 .cont-6__form {
 	background-color: #FFFFFF;
 	height: 370px;
-	position: relative;
+	z-index: 3;
 	
 }
 
@@ -529,7 +531,7 @@ li::marker {
 }
 
 .cont-6__input {
-	z-index: 1;
+	z-index: 2;
 }
 
 .cont-6__button {
@@ -548,6 +550,6 @@ li::marker {
 	position: absolute;
 	top: 99px;
 	left: 906px;
-
 }
 
+/* Блок №7             */
