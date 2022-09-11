@@ -79,6 +79,11 @@ body {
 	line-height: 170%;
 }
 
+.nav__link:hover {
+   color: #FFCA33;
+
+}
+
 .header__contacts {
 	display: flex;
 	margin-top: 53px;
@@ -107,6 +112,14 @@ body {
 
 .header__contact-1-whatsapp {
 	margin-right: 9px;
+}
+
+.header__contact-1-whatsapp:hover {
+	cursor: pointer;
+}
+
+.header__contact-1-viber:hover {
+	cursor: pointer;
 }
 
 .header__block-2 {
@@ -183,11 +196,12 @@ body {
 	width: 356px;
 	height: 60px;	
 	margin-bottom: 20px;
+	padding-left: 16px;
 	
 }
 
 input::placeholder {
-	padding-left: 16px;
+	
 	color: #828282;
 	font-weight: 400;
 	font-size: 14px;
@@ -651,6 +665,7 @@ li::marker {
 
 .cont-8__block:hover {
 	box-shadow: 5px 10px 15px 5px rgba(120, 120, 120, 0.1);
+	cursor: pointer;
 }
 
 .cont-8__img {
@@ -750,6 +765,12 @@ li::marker {
 	padding: 30px 60.5px;
 	border: 1px solid #FFCA33;
 	border-radius: 5px;
+}
+
+.cont-12__link:hover {
+	color: #252527;
+	background-color: #FFCA33;
+	
 }
 
 .cont-12__hr {
